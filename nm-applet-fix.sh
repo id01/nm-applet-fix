@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # If quiet is specified...
-if [ $1 == "--quiet" ]; then
+if [[ $1 == "--quiet" ]]; then
 	quiet=true;
 else
 	quiet=false;
 fi
 
 # If not quiet, give output and perform pauses
-if [ $quiet -eq false ]; then
+if [[ $quiet -eq false ]]; then
 	if [ -t 0 ]; then
 		echo "Killing nm-applet"
 		killall nm-applet
