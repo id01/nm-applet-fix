@@ -5,7 +5,7 @@ Distributable under MIT license.
 
 ### Installation
 For single manual fix: Run ./nm-applet-fix.sh.  
-For sustained fix: Add #/path/to/fix-on-unlock.sh & disown to "Session and Startup > Application Autostart".  
+For sustained fix: Add "/path/to/fix-on-unlock.sh & disown" to "Session and Startup > Application Autostart".  
 (now works on unlock, wake from suspend, and login! This took me longer to make than nm-applet-fix.sh :/)  
 Uncheck "Network (Manage your network connections)." This is the default nm-applet launcher.  
 
